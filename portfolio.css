@@ -206,7 +206,7 @@
     height: 760.4px;
     width: 100%;
     grid-template-columns: 18.1% 4.067% 8.9% 2.8% 3.9% 4.8% 15.5% 1.5% 2.8% 15.48% 2.8% 19.25%;
-    grid-template-rows: 8.19309996rem 208.422px 4.58504644rem 13rem 8.19309996rem;
+    grid-template-rows: 8.19309996rem 208.422px 4.58504644rem 13rem 8.66309996rem;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -314,3 +314,231 @@
 
 
 /* PAGE 3 */
+
+.page3grid{
+    display: grid;
+    position: relative;
+    height: 759.89px;
+    width: 100%;
+    grid-template-columns: 100%;
+    background-color: rgb(253, 136, 61);
+}
+
+.page3{
+    display: grid;
+    position: relative;
+    height: 759.89px;
+    width: 100%;
+    grid-template-columns: 75.8438px 0px 576.688px 0px 148.406px 47.4688px 80.2656px 344.453px 75.8438px;
+    grid-template-rows: 75.8438px 65.0156px 174.812px 60.8281px 32.75px 142.797px 66.9844px 65.0156px 75.8438px;
+    grid-column-start: 1;
+    background-color: rgb(253, 136, 61);
+}
+
+.textpage3{
+    display: grid;
+    position: relative;
+    height: 174.812px;
+    width: 577.172px;
+    line-height: 85.91px;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 72.4205px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.firstword{
+    display: inline;
+    position: relative;
+    height: 50%;
+    justify-content: left;
+    grid-row-start: 1;
+    height: 85.91px;
+    width: auto;
+    color: #faefe6;
+}
+
+.lasttexts{
+    display: block;
+    block-size: auto;
+    position: relative;
+    height: 50%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    height: 85.91px;
+    width: 577.17px;
+    text-wrap: wrap;
+    letter-spacing: normal;
+}
+
+.secondword{
+    width: auto;
+    height: auto;
+    display: inline;
+    font-weight: bolder;
+    color: rgb(85, 53, 102);
+}
+
+.thirdword{
+    width: auto;
+    height: auto;
+    width: 221.33px;
+    display: inline;
+    color: #faefe6;
+}
+
+.parapage3{
+    display: block;
+    position: relative;
+    height: 242.531px;
+    width: 576.688px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.parapage3text{
+    display: inline;
+    position: relative;
+    height: 242.531px;
+    width: 576.688px;
+    color: #faefe6;
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-size-adjust: 100%;
+    text-wrap: wrap;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.parapage3text1{
+    font-weight: 550;
+}
+
+.page3images{
+    position: relative;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 9;
+}
+
+.page3img1main{
+    display: block;
+    position: relative;
+    width: 424px;
+    height : 629px;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    overflow: hidden;
+    border-radius: 300px;
+}
+
+.page3img1{
+    display: block;
+    position: relative;
+    width: 848px;
+    height : 1258px;
+    bottom: 220px;
+    right: 100px;
+}
+
+.page3img2{
+    display: block;
+    position: absolute;
+    width: 127.73px;
+    height: 142.8px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    z-index: 2;
+    bottom: 100px;
+    left: -45px;
+}
+
+/* PAGE 4 */
+
+.page4{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 760.41px;
+    width: 100%;
+    background-color: #faefe6;
+}
+
+.page4heading{
+    display: flex;
+    width: 877.25px;
+    height: 79.05px;
+    position: absolute;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 53, 102);
+    font-size: 63.2px;
+    margin-top: 8%;
+}
+
+.page4imagescontainer{
+    display: inline-flex;
+    position: relative;
+    justify-content: space-around;
+    width: 100%;
+    height: 207.5px;
+    margin-top: 21%;
+    justify-content: center;
+}
+
+.page4images{
+    position: relative;
+    margin: 0 2.5% 0 2.5%;
+    border-radius: 105px;
+    width: 345px;
+    height: 207px;
+}
+
+.page4logontextcontainer{
+    display: inline-flex;
+    position: absolute;
+    width: 95%;
+    height: 114.25px;
+    margin: 39%;
+    justify-content: space-evenly;
+}
+
+.page4containerbox{
+    display: inline-flex;
+    position: relative;
+    height: 114.25px;
+}
+
+.page4logo{
+    object-fit: fill;
+    width: 35.02px;
+    height: 35.02px;
+}
+
+.page4textcontainer{
+    width: 298.55px;
+    height: 114.25px;
+    color: rgb(85, 53, 102);
+    margin-left: 10px;
+}
+
+
+
+
