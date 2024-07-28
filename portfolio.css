@@ -539,6 +539,103 @@
     margin-left: 10px;
 }
 
+/* PAGE 5 */
 
+.page5{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 763.78px;
+    background-color: rgb(85, 53, 102);
+}
+
+.imgbox1{
+    display: flex;
+    position: relative;
+    width: 369.66px;
+    height: 227.83px;
+    background-color: rgb(253, 136, 61);
+    object-fit: cover;
+    left: 37.2%;
+    top: 5%;
+}
+
+.img1caption{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 369.73px;
+    height: 70.59px;
+    left: 37.2%;
+    top: 36%;
+    justify-content: left;
+    align-items: flex-start;
+    color: #faefe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img2caption{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 369.73px;
+    height: 70.59px;
+    left: 67.2%;
+    top: 36%;
+    justify-content: left;
+    align-items: flex-start;
+    color: #faefe6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgbox2{
+    display: flex;
+    position: relative;
+    width: 369.66px;
+    height: 227.83px;
+    left: 40%;
+    top: 5%;
+    background-color: #faefe6;
+    justify-content: center;
+    align-items: center;
+}
+
+.page5logobox{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 73.95px;
+    height: 73.95px;
+}
+
+.page5logo{
+    width: 73.95px;
+    height: 73.95px;
+}
+
+.page5text{
+    display: flex;
+    position: absolute;
+    width: 247.31px;
+    height: 178.05px;
+    color: #faefe6;
+    top: 42%;
+    left: 5%;
+}
+
+.page5text2{
+    display: flex;
+    position: absolute;
+    width: 282px;
+    height: 161.31px;
+    color: #faefe6;
+    top: 67%;
+    left: 5%;
+    font-size: 20.7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    align-items: center;
+}
 
 
